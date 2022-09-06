@@ -1,6 +1,5 @@
 .body {
     background-color: rgb(253, 253, 253);
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -21,27 +20,45 @@
     align-items: center;
 
 }
+.input {
+
+    border-style:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 
 .input input {
-    margin: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(240, 240, 240);
+    border-style:none;
+    margin-top:7px;
+    padding:7px;
+    font-size:10px;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
 
 .button {
-    border: none;
-    display: inline-block;
-    cursor: pointer;
+    border-style: none;
+    border-radius: 4px;
     text-decoration: none;
     text-align: center;
     margin: 5px;
     background-color: #B2DFFC;
-    width: 230px;
+    width: 283px;
+}
+.button button {
+    border-radius: 4px;
+    border-style: none;
 }
 
-.button button {
-    background-color: #B2DFFC;
-}
 
 .password a {
     text-decoration: none;
@@ -51,7 +68,7 @@
 
 .password {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     margin: 17px;
 }
 
@@ -60,7 +77,8 @@
 }
 
 #main2 {
-    margin-top: 10px;
+    font-size:15px;
+    margin-top: 12px;
     background-color: white;
     height: 50px;
     width: 365px;
@@ -79,4 +97,35 @@
 .link a {
     text-decoration: none;
 
+}
+#appDowland {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:13px;
+
+}
+.footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer a{
+    text-decoration: none;
+    color:#6e778b;
+    padding-left:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+#img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 200px;
 }
